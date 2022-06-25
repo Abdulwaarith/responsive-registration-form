@@ -97,13 +97,13 @@ body {
   /* change here */
   .main-body {
     flex-direction: row;
-    margin: 90px auto;
+    margin: 50px auto;
   }
   .left-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 2em;
+    margin-right: 1.5em;
     text-align: left;
     padding-top: 3em;
   }
