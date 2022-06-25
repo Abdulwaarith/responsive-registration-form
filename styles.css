@@ -12,15 +12,15 @@ body {
   background-color: hsl(0, 100%, 74%);
   background-blend-mode: multiply;
 }
-
+/* change here */
 .main-body {
-  margin: 45px auto;
+  margin: 25px auto;
   justify-content: center;
   align-items: center;
   height: 100%;
   max-width: 80%;
   display: flex;
-  padding: 3em;
+  padding: 2em;
   flex-direction: column;
 }
 .left-side {
@@ -34,6 +34,10 @@ body {
   line-height: 1.3em;
   margin-bottom: 0.5em;
 }
+.left-side p {
+  line-height: 1.7em;
+  font-weight: 400;
+}
 .left-paragraph {
   font-size: 0.78em;
   font-weight: 500;
@@ -46,11 +50,10 @@ body {
   padding: 1em 6em;
   border-radius: 0.5em;
   margin-bottom: 2em;
-  box-shadow: 0 5px tranparent;
+  box-shadow: 0 5px hsl(246, 75%, 57%);
 }
-.right-side {
-  /* max-width: 50%; */
-  /* padding: 2em; */
+.trial-span {
+  font-weight: 600;
 }
 .lower-right {
   background-color: #fff;
@@ -76,28 +79,31 @@ body {
   border: none;
   cursor: pointer;
   outline: none;
+  padding: 1.3em;
+  font-weight: 600;
 }
 .claim-text {
   font-size: 0.75em;
   line-height: 1.7em;
   color: hsl(246, 25%, 77%);
 }
-span {
+.terms-span {
   color: hsl(0, 100%, 74%);
   font-size: 1.2em;
   cursor: pointer;
 }
 
 @media only screen and (min-width: 920px) {
+  /* change here */
   .main-body {
     flex-direction: row;
-    margin: 100px auto;
+    margin: 90px auto;
   }
   .left-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 1em;
+    margin-right: 2em;
     text-align: left;
     padding-top: 3em;
   }
@@ -130,6 +136,14 @@ span {
     width: 70%;
   }
   .left-side {
-    margin-right: 0;
+    margin-right: -0.6em;
+  }
+  /* changes here */
+  .left-side p {
+    font-size: 0.8em;
+  }
+  .claim-text {
+    font-size: 0.5em;
+    margin-top: 0.5em;
   }
 }
