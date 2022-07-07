@@ -50,7 +50,7 @@ body {
   padding: 1em 6em;
   border-radius: 0.5em;
   margin-bottom: 2em;
-  box-shadow: 0 5px hsl(246, 75%, 57%);
+  box-shadow: 0 5px hsl(0, 55%, 74%);
 }
 .trial-span {
   font-weight: 600;
@@ -60,6 +60,7 @@ body {
   padding: 1em;
   text-align: center;
   border-radius: 7px;
+  box-shadow: 0 5px hsl(0, 55%, 74%);
 }
 .form-input {
   width: 100%;
